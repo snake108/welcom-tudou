@@ -70,10 +70,10 @@ function createTubeMan(x1, y1, s1, baseColour) {
   let h;
 
   if (random(1) < 0.1) {
-    text = 'HAIL SATAN';
+    text = 'TUDOU';
     h = random(220, 300); // Ensure height is at least 220 for 'HAIL SATAN'
   } else {
-    text = random(['SALE', 'WOWZA', 'WOW']);
+    text = random(['MONSTER', 'HUNTER', 'NARUTO', 'GETLUCKY', 'FURUFURU']);
     h = random(150, 300);
   }
 
